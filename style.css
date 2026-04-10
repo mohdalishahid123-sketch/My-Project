@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: bor;
-}
+}    
 body{
     margin: 0%;
     font-family:inter;
@@ -46,7 +46,7 @@ body{
 .nav-right{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 .nav-right a{
     margin: 5px;
@@ -355,7 +355,7 @@ right: 30px;
 }
 .number{
     position: absolute;
-    background-color:#062B2F;
+    /* background-color:#062B2F; */
     color: #EAD7B7;
     border: 1px solid #EAD7B7;
     height: 64px;
