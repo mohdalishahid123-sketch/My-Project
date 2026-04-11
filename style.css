@@ -101,7 +101,12 @@ body{
     color: #000;
     text-decoration: none;
     font-size: 14px;
-    background-color:aqua;
+    background: linear-gradient(
+    to right,
+    #EAD7B7 0%,
+    #A67C3B 0%,
+    #C9A96E 100%
+  );
     padding:10px 22px;
     left: 350px;
     top: 160px;
@@ -315,7 +320,12 @@ right: 30px;
     position: relative;
     text-decoration: none;
     color: #000000;
-    background-color: aqua;
+    background: linear-gradient(
+    to right,
+    #EAD7B7 0%,
+    #A67C3B 0%,
+    #C9A96E 100%
+  );
     font-size: 14px;
     padding: 10px 22px;
     display: inline-block;
@@ -355,7 +365,7 @@ right: 30px;
 }
 .number{
     position: absolute;
-    /* background-color:#062B2F; */
+    background-color:#062B2F;
     color: #EAD7B7;
     border: 1px solid #EAD7B7;
     height: 64px;
