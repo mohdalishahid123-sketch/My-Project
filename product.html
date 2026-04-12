@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+</head>
+<body>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="product.css">
+
+      <header>
+
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="#">Products</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="Ratniva Jewellers logo">
+            </div>
+
+            <div class="nav-right">
+                <a href="#"> <img src="images/search.svg" class="icon"></a>
+                <a href="#"> <img src="images/heart.svg" class="icon"></a>
+                <a href="#"> <img src="images/bag.svg" class="icon"></a>
+                <a href="#"> <img src="images/user.svg" class="icon"></a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="shop">
+
+        <div class="shop-header">
+            <a href="#">Home /</a>
+            <h3>Rings</h3>
+        </div>
+
+        <div class="shop-top">
+            <div class="shop-left">
+                <span>FILTERS</span>
+                <a href="#">CLEAR ALL</a>
+            </div>
+
+            <div class="shop-right">
+                Sort By: Featured 
+            </div>
+        </div>
+
+        <div class="shop-cointainer">
+            <aside class="filters">
+
+                <div class="filter-group">
+                    <h4>Ring Size</h4>
+                    <label>
+                        <input type="checkbox">11
+                        <span>(751)</span>
+                    </label>
+
+                    <label>
+                        <input type="checkbox">12
+                        <span>(1443)</span>
+                    </label>
+
+                     <label>
+                        <input type="checkbox">13
+                        <span>(883)</span>
+                    </label>
+
+                     <label>
+                        <input type="checkbox">5
+                        <span>(36)</span>
+                    </label>
+                </div>
+
+                <div class="filter-group">
+                    <h4>Price</h4>
+                    <label>
+                        <input type="checkbox">₹10,001-₹15,000
+                        <span>(132)</span>
+                    </label>
+
+                     <label>
+                        <input type="checkbox">₹20,001-₹30,000
+                        <span>(235)</span>
+                    </label>
+                    
+                     <label>
+                        <input type="checkbox">Under₹5,000
+                        <span>(4)</span>
+                    </label>
+
+                     <label>
+                        <input type="checkbox">₹5,001-₹10,000
+                        <span>(106)</span>
+                    </label>
+                </div>
+                <div class="filter-group">
+                    <h4>Discounts</h4>
+                    <label>
+                        <input type="checkbox">Flat 30% off on Diamond Prices
+                        <span>(437)</span>
+                    </label>
+
+                      <label>
+                        <input type="checkbox">Flat 20% off on Diamond Prices
+                        <span>(85)</span>
+                    </label>
+
+                      <label>
+                        <input type="checkbox">Flat 25% off on Making Charges
+                        <span>(56)</span>
+                    </label>
+
+                      <label>
+                        <input type="checkbox">Flat 20% off on MRP
+                        <span>(50)</span>
+                    </label>
+                </div>
+                <div class="filter-group">
+                    <h4>Products Type</h4>
+                    <label>
+                        <input type="checkbox">Earrings
+                        <span>(2708)</span>
+                    </label>
+
+                     <label>
+                        <input type="checkbox" checked>Rings
+                        <span>(2252)</span>
+                    </label>
+
+                     <label>
+                        <input type="checkbox">Bracelet
+                        <span>(894)</span>
+                    </label>
+
+                     <label>
+                        <input type="checkbox">Necklace
+                        <span>(1030)</span>
+                    </label>
+                </div>
+                <div class="filter-group">
+                    <h4>Weight Ranges</h4>
+                    <label>
+                        <input type="checkbox">0-2 g
+                        <span>(442)</span>
+                    </label>
+
+                    <label>
+                        <input type="checkbox">2-5 g
+                        <span>(937)</span>
+                    </label>
+
+                    <label>
+                        <input type="checkbox">5-10 g
+                        <span>(156)</span>
+                    </label>
+
+                    <label>
+                        <input type="checkbox">10-20 g
+                        <span>(5)</span>
+                    </label>
+                </div>
+                <div class="filter-group">
+                    <h4>Material</h4>
+
+                    <label class="filter-item">
+                        <span class="left">
+                            <input type="checkbox">
+                            <img src="" alt="" class="material-icon">
+                            Gold
+                        </span>
+                        <span class="count">(77)</span>
+                    </label>
+
+                     <label class="filter-item">
+                        <span class="left">
+                            <input type="checkbox">
+                            <img src="" alt="" class="material-icon">
+                            Silver
+                        </span>
+                        <span class="count">(386)</span>
+                    </label>
+
+                     <label class="filter-item">
+                        <span class="left">
+                            <input type="checkbox">
+                            <img src="" alt="" class="material-icon">
+                            Platinium
+                        </span>
+                        <span class="count">(1542)</span>
+                    </label>
+
+                     <label class="filter-item">
+                        <span class="left">
+                            <input type="checkbox">
+                            <img src="" alt="" class="material-icon">
+                            Diamond
+                        </span>
+                        <span class="count">(272)</span>
+                    </label>
+                </div>
+            </aside>
+
+            <div class="products">
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product1.png">
+                        <span class="wishlist"><img src="images/wish.svg"></span>
+                    </div>
+                    <div class="product-info">
+                        <h3>₹53,000</h3>
+                        <p>Check Delivery Date</p>
+                        <small>Gold Diamond Studded Ring</small>
+                        <button class="btn">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product2.png">
+                        <span class="wishlist"><img src="images/wish.svg"></span>
+                    </div>
+                    <div class="product-info">
+                        <h3>₹8,000</h3>
+                        <p>Check Delivery Date</p>
+                        <small>Trinity Petals 9KT Gold Ring</small>
+                        <button class="btn">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product3.png">
+                        <span class="wishlist"><img src="images/wish.svg"></span>
+                    </div>
+                    <div class="product-info">
+                        <h3>₹25,591</h3>
+                        <p>Check Delivery Date</p>
+                        <small>Urvitha 22KT Gold Ring</small>
+                        <button class="btn">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product4.png">
+                        <span class="wishlist"><img src="images/wish.svg"></span>
+                    </div>
+                    <div class="product-info">
+                        <h3>₹65,101</h3>
+                        <p>Check Delivery Date</p>
+                        <small>Regal Forge 22KT Gold Ring for Men</small>
+                        <button class="btn">ADD TO CART</button>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product5.png">
+                        <span class="wishlist"><img src="images/wish.svg"></span>
+                    </div>
+                    <div class="product-info">
+                        <h3>₹10,000</h3>
+                        <p>Check Delivery Date</p>
+                        <small>Clasp 9KT Gold Ring</small>
+                        <button class="btn">ADD TO CART</button>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product6.png">
+                        <span class="wishlist"><img src="images/wish.svg"></span>
+                    </div>
+                    <div class="product-info">
+                        <h3>₹50,543</h3>
+                        <p>Check Delivery Date</p>
+                        <small>Regent Ruby 22KT Gold Ring</small>
+                        <button class="btn">ADD TO CART</button>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product7.png">
+                        <span class="wishlist"><img src="images/wish.svg"></span>
+                    </div>
+                    <div class="product-info">
+                        <h3>₹49,955</h3>
+                        <p>Check Delivery Date</p>
+                        <small>Krishiv 22KT Gold Ring</small>
+                        <button class="btn">ADD TO CART</button>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product8.png">
+                        <span class="wishlist"><img src="images/wish.svg"></span>
+                    </div>
+                    <div class="product-info">
+                        <h3>₹10,348</h3>
+                        <p>Check Delivery Date</p>
+                        <small>Heart Kida Gold Ring</small>
+                        <button class="btn">ADD TO CART</button>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product9.png">
+                        <span class="wishlist"><img src="images/wish.svg"></span>
+                    </div>
+                    <div class="product-info">
+                        <h3>₹9,144</h3>
+                        <p>Check Delivery Date</p>
+                        <small>Interwine Leaf 9KT Gold Ring</small>
+                        <button class="btn">ADD TO CART</button>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product10.png">
+                        <span class="wishlist"><img src="images/wish.svg"></span>
+                    </div>
+                    <div class="product-info">
+                        <h3>₹19,288</h3>
+                        <p>Check Delivery Date</p>
+                        <small>Tanishka Glim Gold Ring</small>
+                        <button class="btn">ADD TO CART</button>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product11.png">
+                        <span class="wishlist"><img src="images/wish.svg"></span>
+                    </div>
+                    <div class="product-info">
+                        <h3>₹8,899</h3>
+                        <p>Check Delivery Date</p>
+                        <small>Ravel 9KT Gold Ring</small>
+                        <button class="btn">ADD TO CART</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product12.png">
+                        <span class="wishlist"><img src="images/wish.svg"></span>
+                    </div>
+                    <div class="product-info">
+                        <h3>₹11,859</h3>
+                        <p>Check Delivery Date</p>
+                        <small>Ray of Infinity Diamond Ring</small>
+                        <button class="btn">ADD TO CART</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="pagination">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>▶</span>
+        </div>
+
+    </section>
+ 
+   <!-- <footer class="footer">
+
+    <div class="footer-cointainer">
+
+        <div class="footer-col footer-brand">
+            <img src="images/logo.png" class="footer-logo">
+            <p>
+                  Explore our curated collection of fine jewelry, 
+                meticulously crafted with the finest materials 
+                 to adorn you with timeless elegance.
+            </p>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Product Categories</h3>
+            <ul>
+                <li><a href="#">Ring</a></li>
+                <li><a href="#">Bracelet</a></li>
+                <li><a href="#">Earrings</a></li>
+                <li><a href="#">Necklace</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Useful Links</h3>
+            <ul>
+                <li><a href="#">Privacy Links</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Follow us</h3>
+            <div class="social-links">
+                <img src="images/Social-4.svg">
+                <img src="images/Social-1.svg">
+                <img src="images/Social-2.svg">
+                <img src="images/Social-3.svg">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        Copyright &copy; 2026, All Rights Reserved By Ratniva Jewellers
+    </div>
+   </footer> -->
+
+</body>
+</html>
