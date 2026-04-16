@@ -408,8 +408,13 @@ right: 30px;
 }
 .review-card-center{
     background: #0B3A3F;
-    transform: scale(1.05);
-    padding: 25px;
+    /* transform: scale(1.05); */
+    padding: 33px;
+    text-align: left;
+}
+.review-card-last{
+    background: #0B3A3F;
+    padding: 41px;
     text-align: left;
 }
 .review-top{
