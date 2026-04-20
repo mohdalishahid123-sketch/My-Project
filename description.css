@@ -71,7 +71,7 @@ body{
 .description-cointainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 150px;
+    gap: 100px;
 }
 .main-image{
     padding: 10px;
